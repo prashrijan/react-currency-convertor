@@ -3,8 +3,9 @@
     #container{
         flex-direction: column;
         width: 100%;
-        height: 100vh;
-        padding: 2rem 0;
+        height: auto;
+        padding: 4rem 0;
+        gap: 1rem;
     }
 
     #text-container{
@@ -12,6 +13,6 @@
     }
 
     #form-container{
-        width: 90%;
+        width: 95%;
     }
 }
