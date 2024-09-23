@@ -17,6 +17,7 @@ function App() {
   const options = Object.keys(currencyInfo)
 
   console.log(options);
+
   
   const swap = () => {
     setFrom(to)
@@ -28,6 +29,7 @@ function App() {
   const convert = () => {
     setConvertedAmount(amount * currencyInfo[to])
   }
+
 
   return (
       <div className='h-screen w-full flex justify-center items-center bg-gradient-to-br from-blue-500 to-purple-600' id='container'>
